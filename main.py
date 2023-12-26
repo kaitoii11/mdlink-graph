@@ -21,7 +21,7 @@ for file in path:
         continue
 
     with open(file,'r') as f:
-       text = f.read()
+        text = f.read()
 
     soup = BeautifulSoup(markdown.markdown(text), 'html.parser')
 
